@@ -3,57 +3,70 @@
 <head>
 	<title>Form 2</title>
 </head>
-<body>
-<form name = "form2" method = "get" action = "#">
-<table border="1" cellspacing="0" >
+<body background="img.jpg" text="#006600">
+<center>
+<form name = "form2" method = "post" action = "#">
+<table border="2" cellspacing="0" >
 <tr>
 	<td>
-		<p><h2>HTML Form Test</h2></p>
-		<br/>
-		<table cellpadding="5">
+		<h2 style="color:#660066;"><center>HTML Form Test</center></h2><br>
+		<table cellpadding="10" cellspacing="0">
 			<tr>
 				<td>Name</td>
-				<td><input type = "text" name = "Name"  /></td>
+				<td><input type="text" name="name"></td>
 			</tr>
-		<tr>
-			<td>Address</td>
-			<td><input type = "text" name = "Address"  /></td>
-		</tr>
-		<tr>
-			<td>Email</td>
-			<td><input type = "email" name = "email"/></td>
-		</tr>
-		<tr>
-			<td>Gender</td>
-			<td><input type = "radio" name = "radio" id = "rd1" value = "Male"> Male
-			<input type = "radio" name = "radio" id = "rd2" value = "Female"> Female</td>
-		</tr>
-		<tr>
-			<td>Hobbies</td>
-			<td><input type="checkbox" name="cb1" value="Sports"> Sports
-				<input type="checkbox" name="cb2" value="Movies"> Movies
-				<input type="checkbox" name="cb3" value="Travelling"> Travelling</td>
-		</tr>
-		<tr>
-			<td>Country</td>
-			<td><select name="country">
-				<option value = "Nepal">Nepal</option>
-				<option value = "USA">USA</option>
-				<option value = "China">China</option>
-				<option value = "Canada">Canada</option>
-				<option value = "UK">Uk</option>
-				</select></td>
-		</tr>
-		<tr height="200" width="2000">
-			<td>Message</td>
-			<textarea name = "message" rows = "5" columns = "10"></textarea>
-		</tr>
-		<tr>
-			<td></td>
-			<td><input type="reset" value="Reset"/>
-				<input type="submit" value="Submit"/></td>
-		</tr>
+			<tr>
+				<td>Address</td>
+				<td><input type="text" name="address"></td>
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td><input type="Email" name="email"></td>
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td>
+					<input type="radio" name="gender" id="rd1" value="Male"><label for="Male">Male</label>
+					<input type="radio" name="gender" id="rd2" value="MFemle"><label for="Female">Female</label>
+				</td>
+			</tr>
+			<tr>
+				<td>Hobbies</td>
+				<td>
+					<input type="checkbox" name="Hobbies" id="cb1" value="Sports"><label for="Sports">Sports</label>
+					<input type="checkbox" name="Hobbies" id="cb2" value="Movies"><label for="Movies">Movies</label>
+					<input type="checkbox" name="Hobbies" id="cb3" value="Travelling"><label for="Travelling">Travelling</label>
+				</td>
+			</tr>
+			<tr>
+				<td>Country</td>
+				<td>
+					<select name="Country">
+						<option value="Nepal" selected="selected">Nepal</option>
+						<option value="England">England</option>
+						<option value="U.S.A.">U.S.A.</option>
+						<option value="Canada">Canada</option>
+						<option value="SriLanka">Sri Lanka</option>
+						<option value="Bhutan">Bhutan</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Message</td>
+				<td><textarea cols="40" rows="5" name="Message"></textarea></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<button type="Submit">Submit</button>
+					<button type="Reset">Reset</button>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
 </table>
 </form>
+</center>
 </body>
 </html>
