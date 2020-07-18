@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form 3</title>
+</head>
+<body bgcolor="99ddff">
+<center>
+	<form name="form3" method="post" action="#">
+		<table border="2px" cellpadding="10" cellspacing="0" bgcolor="#ffff99">
+			<center><caption><i><h2>Registration Form</h2></i></caption></center>
+			<tr>
+				<td>Enter your First Name</td>
+				<td><input type="text" name="First"></td>
+			</tr>
+			<tr>
+				<td>Enter your Last Name</td>
+				<td><input type="text" name="Last"></td>
+			</tr>
+			<tr>
+				<td>Enter your Password</td>
+				<td><input type="Password" name="pwd" size="15" maxlength="16"></td>
+			</tr>
+			<tr>
+				<td>ReEnter your Password</td>
+				<td><input type="Password" name="pwd" size="15" maxlength="16"></td>
+			</tr>
+			<tr>
+				<td>Enter your Email</td>
+				<td><input type="Email" name="email"></td>
+			</tr>
+			<tr>
+				<td>Enter your mobile</td>
+				<td><input type="text" name="number"></td>
+			</tr>
+			<tr>
+				<td>Enter your address</td>
+				<td><textarea cols="40" rows="5" name="Message"></textarea></td>
+			</tr>
+			<tr>
+				<td>Select your Gender</td>
+				<td>
+					<input type="radio" name="gender" id="rd1" value="Male"><label for="Male">Male</label>
+					<input type="radio" name="gender" id="rd2" value="MFemle"><label for="Female">Female</label>
+				</td>
+			</tr>
+			<tr>
+				<td>Select your Hobby</td>
+				<td>
+					<input type="checkbox" name="hobby" id="cb1" value="Hobby1"><label for="Hobby1">Hobby1</label>
+					<input type="checkbox" name="hobby" id="cb2" value="Hobby2"><label for="Hobby2">Hobby2</label>
+					<input type="checkbox" name="hobby" id="cb3" value="Hobby3"><label for="Hobby3">Hobby3</label>
+				</td>
+			</tr>
+			<tr>
+				<td>Select your DOB</td>
+				<td><input type="date" name="date"></td>
+			</tr>
+			<tr>
+				<td>Select your Country</td>
+				<td>
+					<select name="Country">
+						<option value="NIL" selected="selected" disabled="disabled">Select your Country</option>
+						<option value="Nepal">Nepal</option>
+						<option value="England">England</option>
+						<option value="U.S.A.">U.S.A.</option>
+						<option value="Canada">Canada</option>
+						<option value="SriLanka">Sri Lanka</option>
+						<option value="Bhutan">Bhutan</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Upload your pic</td>
+				<td><input type="file" name="file"></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<button type="submit">Save My Data</button>
+					<button type="reset">Reset Data</button>
+				</td>
+			</tr>
+		</table>
+	</form>
+</center>
+</body>
+</html>
